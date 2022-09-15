@@ -1,0 +1,23 @@
+programa {
+  funcao inicio() {
+
+    real peso, exc=0.0, multa=0.0
+
+    escreva("Digite o peso dos Tomates: ")
+    leia(peso)
+
+    se(peso > 50){
+
+        exc = peso - 50
+
+        multa = exc * 4.0
+
+    }
+
+    escreva("O Peso dos Tomates foi: ", peso, "kg\n")
+    escreva("KG de Tomates excedentes: ", exc)
+    escreva("O Valor da multa ficou em. R$: ", multa)
+
+
+  }
+}
